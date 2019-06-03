@@ -16,6 +16,10 @@
 
 $(window).scroll(function() {
 	var wScroll = $(this).scrollTop();
+	if (wScroll > 70 ){
+		$('#navbar').addClass('Show');
+	}
+
 	if (wScroll > 100 ) {
 		$('.aboutSlide').addClass('aShow');
 	}
@@ -43,43 +47,66 @@ $(window).scroll(function() {
 	if (wScroll > 530 ){
 		$('.eduSlide2').addClass('eShow');
 	}
-	if (wScroll > 1030 ){
-		$('.skillT').addClass('sktShow');
+
+	// Skill
+	if (wScroll > 1060 ){
+		$('.progres').addClass('sktShow');
 	}
 	if (wScroll > 1090 ){
-		$('.skillTitle').addClass('sktShow');
+		$('.skillSlide').addClass('sktShow');
 	}
 	if (wScroll > 1110 ){
-		$('.skillTitle1').addClass('sktShow');
+		$('.htmlcolor').addClass('skillShow');
 	}
 	if (wScroll > 1150 ){
-		$('.skillTitle2').addClass('sktShow');
+		$('.csscolor').addClass('skillShow');
 	}
 	if (wScroll > 1160 ){
-		$('.skillTitle3').addClass('sktShow');
+		$('.jscolor').addClass('skillShow');
 	}
-	if (wScroll > 1400 ){
+	if (wScroll > 1140 ){
+		$('.phpcolor').addClass('skillShow');
+	}
+	if ( wScroll > 1170 ){
+		$('.adobecolor').addClass('skillShow');
+	}
+	if (wScroll > 1180 ){
+		$('.p5color').addClass('skillShow');
+	}
+	if (wScroll > 1150 ){
+		$('.codeignitercolor').addClass('skillShow');
+	}
+	if (wScroll > 1140 ){
+		$('.jqcolor').addClass('skillShow');
+	}
+	if (wScroll > 1140 ){
+		$('.progres_value').addClass('skillShow');
+	}
+	//Experience
+
+	if (wScroll > 1530 ){
 		$('.experienceCard').addClass('expShow');
 	}
-	if (wScroll > 2500 ){
+
+	if (wScroll > 2150 ){
 		$('#c1').addClass('cShow');
 	}
-	if (wScroll > 2600 ){
+	if (wScroll > 2160 ){
 		$('#c2').addClass('cShow');
 	}
-	if (wScroll > 2600 ){
+	if (wScroll > 2180 ){
 		$('#c3').addClass('cShow');
 	}
-	if (wScroll > 2600 ){
+	if (wScroll > 2150 ){
 		$('#c4').addClass('cShow');
 	}
-	if (wScroll > 2500 ){
+	if (wScroll > 2180 ){
 		$('#c5').addClass('cShow');
 	}
-	if (wScroll > 2400 ){
+	if (wScroll > 2180 ){
 		$('#c6').addClass('cShow');
 	}
-	if (wScroll > 2600 ){
+	if (wScroll > 2160 ){
 		$('#c7').addClass('cShow');
 	}
 
@@ -93,11 +120,11 @@ $(window).scroll(function() {
 		'transform' : 'translate(0px, '+ wScroll/2 +'%)'
 	});
 	$('.jumbotron p').css({
-		'transform' : 'translate(0px, '+ wScroll/1.2 +'%)'
+		'transform' : 'translate(0px, '+ wScroll/1 +'%)'
 	});
 
 	// Education 
-	if (wScroll > $('.education').offset().top - 250) {
+	if (wScroll > $('.education').offset().top - 450) {
 		$('.school').each(function(a) {
 			setTimeout(function() {
 			$('.school').eq(a).addClass('muncul');
@@ -111,22 +138,22 @@ $(window).scroll(function() {
 
 
 	//portfolio
-	var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: false,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows : true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
+	// var swiper = new Swiper('.swiper-container', {
+ //      effect: 'coverflow',
+ //      grabCursor: false,
+ //      centeredSlides: true,
+ //      slidesPerView: 'auto',
+ //      coverflowEffect: {
+ //        rotate: 50,
+ //        stretch: 0,
+ //        depth: 100,
+ //        modifier: 1,
+ //        slideShadows : true,
+ //      },
+ //      pagination: {
+ //        el: '.swiper-pagination',
+ //      },
+ //    });
 
 });
 
