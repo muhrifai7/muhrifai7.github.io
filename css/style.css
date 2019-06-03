@@ -14,9 +14,9 @@ body {
 	animation-duration: 2s;
 	/*background: red;*/
 }
-#navbar.Show {
+/*#navbar.Show {
 	background: linear-gradient(45deg,#ae3a2a,#12affa);
-}
+}*/
 #navbarProfil {
 	animation-duration: 2s;
 	background: transparent;
