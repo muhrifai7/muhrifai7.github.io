@@ -66,6 +66,7 @@ $(window).scroll(function() {
 	}
 	if (wScroll > 1140 ){
 		$('.phpcolor').addClass('skillShow');
+<<<<<<< HEAD
 	}
 	if ( wScroll > 1170 ){
 		$('.adobecolor').addClass('skillShow');
@@ -73,6 +74,15 @@ $(window).scroll(function() {
 	if (wScroll > 1180 ){
 		$('.p5color').addClass('skillShow');
 	}
+=======
+	}
+	if ( wScroll > 1170 ){
+		$('.adobecolor').addClass('skillShow');
+	}
+	if (wScroll > 1180 ){
+		$('.p5color').addClass('skillShow');
+	}
+>>>>>>> 9cd32c2dcd90a0015209b618c1b6389eba9fe551
 	if (wScroll > 1150 ){
 		$('.codeignitercolor').addClass('skillShow');
 	}
@@ -156,18 +166,4 @@ $(window).scroll(function() {
  //    });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
