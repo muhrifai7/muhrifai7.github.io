@@ -1,22 +1,29 @@
-html {
-	/*position: relative;*/
-	margin: 0;
+html , body {
 	padding: 0;
+	margin: 0;
+	display: block;
+	width: 100%;
 }
 body {
-	margin-bottom: 0px;
-	margin-top: 0px; 
 	font-family: 'Barlow', sans-serif; 
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
+	padding: 0;
+	margin: 0;
 }
-#navbar {
+.navbar {
 	animation-duration: 2s;
-	/*background: red;*/
+	background:transparent;	
 }
-/*#navbar.Show {
+.far , .fab ,.fas{
+	color: white;
+}
+.navar-brand {
+	color: white;
+}
+.navbar.Show {
 	background: linear-gradient(45deg,#ae3a2a,#12affa);
-}*/
+}
 #navbarProfil {
 	animation-duration: 2s;
 	background: transparent;
@@ -59,7 +66,7 @@ section img{
 .about {
 	margin-top: -36px;
 	padding-top: 20px;
-    background-image: -webkit-linear-gradient(45deg, #3503ad,#f7308d);
+    background-image: -webkit-linear-gradient(45deg, #232928,#232928);
 	color: #aeaefa;
 	position: relative;
 }
@@ -68,14 +75,19 @@ section img{
 /* Education*/
 
 #education {
-	background-image: url(../img/bg-Edu.jpg);
+
+	background-image: url(../img/3.jpeg);
+	opacity: 1;
 	padding-top: 20px;
-	/*background: linear-gradient(90deg, white);*/
+	background: linear-gradient(90deg, white);
 	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
-	color: black;
+	color: white;
 	padding-bottom: 20px;
+}
+.eduSlide.eShow {
+	opacity: 1;
 }
 .school {
 	opacity: 0;
@@ -93,20 +105,23 @@ section img{
 	padding: 3px 3px 3px 3px;
 }
 .col-sm-4:nth-child(1) .school {
-	background :linear-gradient(90deg, #B1FBFF,#0C128F); 
+	background:transparent; 
+	/*background :linear-gradient(90deg, #B1FBFF,#0C128F); */
 }
 .col-sm-4:nth-child(2) .school {
-	background :linear-gradient(90deg, #B1FBFF,#54C3FF); 
+	background:transparent; 
+	/*background :linear-gradient(90deg, #B1FBFF,#54C3FF); */
 }
 .col-sm-4:nth-child(3) .school {
-	background :linear-gradient(90deg, #B1FBFF,#63152F); 
+	background:transparent; 
+	/*background :linear-gradient(90deg, #B1FBFF,#63152F); */
 }
 
 /*Skill*/
 #skill {
 	padding-top: 20px;
 	padding-bottom: 30px;
-	background-image: -webkit-linear-gradient(45deg, #24006b,#f42f8c);
+	background-image: -webkit-linear-gradient(45deg, #232928,#232928);
 }
 .skillSlide{
 	opacity: 0;
@@ -273,9 +288,12 @@ section img{
 .experience {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-image: url(../img/experiance-bg.jpg);
+	background-image: url(../img/7.jpg);
+	
+	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
+	color: white;
 	
 }
 .experienceCard {
@@ -287,7 +305,7 @@ section img{
 	opacity: 1;
 	transform: translate(0,0);
 	margin: 13px;
-	background :linear-gradient(45deg, #3503ad,#f7308d);
+	/*background :linear-gradient(45deg, #3503ad,#f7308d);*/
 	box-shadow: 0 10px 15px; 
 	border-radius: 15px;
 }
@@ -295,22 +313,18 @@ section img{
 
 /*Portfolio*/
 .portfolio {
-	background: linear-gradient(45deg, #24006b,#f42f8c);
+	
+	background: linear-gradient(45deg, #232928,#232928);
 	padding-top: 20px;
 	overflow: hidden;
     background-size: cover;
 	background-attachment: fixed;
 }
-.swiper-container {
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  border-radius: 15px;
-}
+
 .portSlide {
 	color: white;
 }
-.card {
+.card {y
 	margin-bottom: 20px;
 }
 .card-body{
@@ -377,6 +391,7 @@ section img{
 	background-color: #333;	
 }
 footer {
+	margin-top: 0px;
 	padding-top: 8px;
 	background-image: -webkit-linear-gradient(bottom left, #051937, #171228, #190a1a, #12040d, #0000);
 }
