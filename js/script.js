@@ -88,25 +88,25 @@ $(window).scroll(function() {
 		$('.experienceCard').addClass('expShow');
 	}
 
-	if (wScroll > 2100 ){
+	if (wScroll > 2080 ){
 		$('#c1').addClass('cShow');
 	}
-	if (wScroll > 2100 ){
+	if (wScroll > 2070 ){
 		$('#c2').addClass('cShow');
 	}
-	if (wScroll > 2100 ){
+	if (wScroll > 2050 ){
 		$('#c3').addClass('cShow');
 	}
-	if (wScroll > 2100 ){
+	if (wScroll > 2040 ){
 		$('#c4').addClass('cShow');
 	}
-	if (wScroll > 2100 ){
+	if (wScroll > 2030 ){
 		$('#c5').addClass('cShow');
 	}
-	if (wScroll > 2100 ){
+	if (wScroll > 2050 ){
 		$('#c6').addClass('cShow');
 	}
-	if (wScroll > 2100 ){
+	if (wScroll > 2030 ){
 		$('#c7').addClass('cShow');
 	}
 

@@ -105,8 +105,8 @@ section img{
 	padding: 3px 3px 3px 3px;
 }
 .col-sm-4:nth-child(1) .school {
-	background:transparent; 
-	/*background :linear-gradient(90deg, #B1FBFF,#0C128F); */
+	/* background:transparent;  */
+	background :linear-gradient(90deg, #B1FBFF,#0C128F);
 }
 .col-sm-4:nth-child(2) .school {
 	background:transparent; 
