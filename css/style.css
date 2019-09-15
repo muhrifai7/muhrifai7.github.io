@@ -51,9 +51,7 @@ hr {
 p {
 	text-align: center;
 }
-section {
-	/*max-height: 500px;*/
-}
+
 section img{
 	width: 150px;
 	padding-top: 20px;
@@ -302,8 +300,7 @@ section img{
 	opacity: 1;
 	transform: translate(0,0);
 	margin: 13px;
-	/*background :linear-gradient(45deg, #3503ad,#f7308d);*/
-	box-shadow: 0 10px 15px; 
+	background :linear-gradient(90deg, rgb(33, 115, 119),#0C128F);box-shadow: 0 10px 15px; 
 	border-radius: 15px;
 }
 /*experience*/
@@ -321,7 +318,7 @@ section img{
 .portSlide {
 	color: white;
 }
-.card {y
+.card {
 	margin-bottom: 20px;
 }
 .card-body{
