@@ -105,16 +105,13 @@ section img{
 	padding: 3px 3px 3px 3px;
 }
 .col-sm-4:nth-child(1) .school {
-	/* background:transparent;  */
-	background :linear-gradient(90deg, #B1FBFF,#0C128F);
+	background :linear-gradient(90deg, rgb(33, 115, 119),#0C128F);
 }
 .col-sm-4:nth-child(2) .school {
-	background:transparent; 
-	/*background :linear-gradient(90deg, #B1FBFF,#54C3FF); */
+	background :linear-gradient(90deg, rgb(33, 115, 119),#0C128F);
 }
 .col-sm-4:nth-child(3) .school {
-	background:transparent; 
-	/*background :linear-gradient(90deg, #B1FBFF,#63152F); */
+	background :linear-gradient(90deg, rgb(33, 115, 119),#0C128F);
 }
 
 /*Skill*/
